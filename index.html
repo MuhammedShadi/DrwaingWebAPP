@@ -1,0 +1,66 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Drwaing App</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Tilte  -->
+        <div id="header">
+            Drwaing App
+        </div>
+        <!-- color -->
+        <div class="inputContainer">
+            <div class="input" id="colorInput" >  
+                <input type="color" list id="paintcolor">
+            </div>
+            
+            <div class="input" id="pointInput">
+                <div id="circle">
+                </div>
+            </div>
+            
+        <!--color slider -->
+            <div class="input">
+            <div id="slider"></div>
+            </div>
+        </div>
+        <!--canvas container-->
+        <div id="container">
+            <canvas id="paint" width="500px" height="400px">
+            
+            </canvas>
+        </div>
+
+        <!-- buttons       -->
+        <div class="inputContainer2">
+            <!-- erase   -->
+            <div class="input2">
+                <span id="erase" class="button">Erase</span>
+            </div>
+                    <!-- save   -->
+            <div class="input2">
+                <span id="save" class="button">Save</span>
+            </div>
+                    <!-- rest   -->
+            <div class="input2">
+                <span id="reset" class="button">Reset</span>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>    

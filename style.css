@@ -1,0 +1,107 @@
+body{
+    background: url(images/paintbg.jpg) center  fixed no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+#header {
+    background: linear-gradient(white,rgba(67,169,228,0.9));
+    background: -webkit-linear-gradient(white,rgba(67,169,228,0.9));
+    background: -moz-linear-gradient(white,rgba(67,169,228,0.9));
+    background: -o-linear-gradient(white,rgba(67,169,228,0.9));
+    background: -ms-linear-gradient(white,rgba(67,169,228,0.9));
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 3em;
+    color: #fff;
+    line-height: 80px;
+}
+
+
+.inputContainer {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.input{
+    height: 30px;
+    font-size: 1.3em; 
+}
+
+#circle{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform: -webkit-translate(-50%,-50%);
+    transform: -moz-translate(-50%,-50%);
+    transform: -o-translate(-50%,-50%);
+    transform: -ms-translate(-50%,-50%);
+    
+}
+
+#pointInput {
+    position: relative;
+}
+
+#slider {
+    margin: 10px auto;
+}
+
+#container {
+    height: 400px;
+    width: 500px;
+    border: 1px solid rgba(122,174,229,0.5);
+    margin: 10px auto;
+}
+
+#paint{
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+.inputContainer2 {
+    width: 439px;
+    margin: 0 auto;
+}
+.input2{
+    width: 133px;
+    color: #5BB4E7;
+    font-size: 1.3em;
+    float: left;
+}
+.button{
+    background: #fff;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 4px rgba(0,0,0,0.5);
+    -o-box-shadow: 0px 4px rgba(0,0,0,0.5);
+    -ms-box-shadow: 0px 4px rgba(0,0,0,0.5);
+}
+
+.button:hover{
+    color: white;
+    background: linear-gradient(white,rgba(67,169,228,0.9));
+    -webkit-background: linear-gradient(white,rgba(67,169,228,0.9));
+    -moz-background: linear-gradient(white,rgba(67,169,228,0.9));
+    -o-background: linear-gradient(white,rgba(67,169,228,0.9));
+    -ms-background: linear-gradient(white,rgba(67,169,228,0.9));
+}
+.button:active{
+    top: 4px;
+}
+.eraseMode{
+    background-color: red;
+    color: white;
+}
